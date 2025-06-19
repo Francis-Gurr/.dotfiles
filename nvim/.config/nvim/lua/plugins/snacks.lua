@@ -6,7 +6,7 @@ return {
 	opts = {
 		bigfile = { enabled = true },
 		bufdelete = { enabled = true },
-		dashboard = { enabled = true },
+		dashboard = { example = "advanced" },
 		debug = { enabled = true },
 		dim = { enabled = true },
 		explorer = { enabled = true },
@@ -21,7 +21,7 @@ return {
 		rename = { enabled = true },
 		scratch = { enabled = true },
 		scroll = { enabled = true },
-		statuscolumn = { enabled = true },
+		-- statuscolumn = { enabled = true },
 		terminal = { enabled = true },
 		toggle = { enabled = true },
 		words = { enabled = true },
