@@ -28,7 +28,7 @@ download_version() {
 
     local tarfile
     tarfile=$(curl -s "$BASE_URL/$ver/" \
-        | grep -oP 'href="agilecore-linux-[^"]+\.tar\.xz"' \
+        | grep -oP "href=\"agilecore-linux-.*-${ver}\.tar\.xz\"" \
         | head -n1 \
         | cut -d'"' -f2)
 
